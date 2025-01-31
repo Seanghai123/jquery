@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+AR:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sevillana&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{ 
+    background-repeat: no-repeat;
+    background-image: url('https://wallpaperaccess.com/full/2529113.jpg');
+    width: 100%;
+    height: 100vh;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+.conteiner{
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around; 
+    /* box-shadow: 1px 20px 80px #ccc ;
+    background-color:white; */
+}
+.flex img{
+    width: 150px;
+}
+.conteiner .copy{
+  display: flex;
+  list-style: none;
+}
+.copy a{
+    font-family: "Sevillana", cursive;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    margin: 0 40px;
+}
+form {
+    position: relative;
+    top: 100px;
+    left: 600px;
+    align-items: center;
+    width: 25%;
+    height: 420px;
+    padding: 20px;
+    background-color: rgb(247, 248, 251);
+}
+h1{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+.ba{
+    width: 100%;
+    border: none;
+    /* border: none;​សម្រាប់បំបាត់ខាងក្នុង​SIGN IN */
+    border-radius: 4px;
+    /* border-radius: 4px;សម្រាប់ធ្វើបមបាត់ជ្រុង */
+
+    padding: 10px 5px;
+   
+
+}
+.box{
+    width:100% ;
+    height: 10% ;
+    border: none;
+    /* border: none;​សម្រាប់បំបាត់ខាងក្នុង​SIGN IN */
+    border-radius: 4px;
+    /* border-radius: 4px;សម្រាប់ធ្វើបមបាត់ជ្រុង */
+    line-height: 40px;
+    color: white;
+    text-align: center;
+    background-color: rgb(85, 85, 254);
+}
+.box1{
+    width:100% ;
+    height: 10% ;
+    border: none;
+    /* border: none;​សម្រាប់បំបាត់ខាងក្នុង​SIGN IN */
+    border-radius: 4px;
+    /* border-radius: 4px;សម្រាប់ធ្វើបមបាត់ជ្រុង */
+    line-height: 40px;
+    color: white;
+    text-align: center;
+    background-color: rgb(241, 48, 48);
+}
+.box2{
+    width:100% ;
+    height: 10% ;
+    border: none;
+    /* border: none;​សម្រាប់បំបាត់ខាងក្នុង​SIGN IN */
+    border-radius: 4px;
+    /* border-radius: 4px;សម្រាប់ធ្វើបមបាត់ជ្រុង */
+    line-height: 40px;
+    color: white;
+    text-align: center;
+    background-color: rgb(16, 55, 154);
+}

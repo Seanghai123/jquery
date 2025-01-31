@@ -1,0 +1,89 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+   display: flex;
+   justify-content: center;
+}
+.conteiner{
+    width: 100%;
+    height: 800px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+   background-color: blue;
+}
+.you{
+    width: 49%;
+    height: 100%;
+    padding: 20px;
+    /* display: flex; */
+    justify-content:space-between;
+    background-color:black;
+}
+.me,.me1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    background-color:coral;
+
+}
+.me1{
+    margin-top: 10px;
+}
+.got1,.got2,.got3{
+    width: 32%;
+    height: 100%;
+    background-color: dodgerblue;
+}
+.go{
+    width: 49%;
+    height: 100%;
+    background-color: darkred;
+}
+.go img{
+    width: 100% ;
+    object-fit: cover;
+    transition: 0.7;
+    height: 100%;
+}
+img:hover{
+    transform:scale(0.7);
+}
+.go1{
+    width: 49%;
+    height: 100%;
+    background-color: dimgrey;
+}
+.you1{
+    width: 49%;
+    height: 100%;
+    padding: 10px;
+    display:flex;
+    justify-content: space-between;
+    background-color: chartreuse;
+}
+.bro{
+    width: 47%;
+    height: 100%;
+    background-color:chocolate;
+}
+.bro img{
+    width: 100% ;
+    object-fit: cover;
+    transition: 0.7;
+    height: 100%;
+}
+img:hover{
+    transform:scale(0.7);
+}
+
+.bro1{
+    width: 47%;
+    height: 100%;
+    background-color:deeppink;
+}

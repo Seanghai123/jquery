@@ -1,0 +1,420 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 0;
+    
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;  
+    display: flex;
+    /* position:sticky;
+    top: 0; */
+    padding: 18px 5px;
+    justify-content:space-around;
+    background-color:white;
+    align-items: center;
+    box-shadow: 1px 2px 8px #ccc;
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    right: 30px;
+}
+.logo-header img{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    right: 15px;
+}
+.logo3{
+    width: 150px;
+    height: 150px;
+}
+.write{
+    margin-top: 170px;
+}
+.write h1{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    font-size: 100px;
+}
+.Text{
+    margin-top: 150px;
+    /* width: 800px;
+    height: 100px; */
+}
+h1{
+    text-align: center;
+    color: rgb(84, 141, 141);
+    font-size: 80px;
+}
+.box{
+    width: 1900px;
+    height: 1000px;
+    display: flex;
+    /* background-color: blueviolet; */
+}
+.moga{
+    width: 60%;
+    height: 100%;
+    /* background-color: chartreuse; */
+}
+.moga1{
+    width: 40%;
+    height: 100%;
+    /* background-color: darkkhaki; */
+}
+.legent1{
+    width: 100%;
+    height: 20%;
+    /* background-color: darkslateblue; */
+}
+.legent2{
+    width: 100%;
+    height: 60%;
+    /* background-color: rgb(202, 199, 18); */
+}
+.button{
+    width: 100%;
+    height: 60%;
+    /* background-color: deepskyblue; */
+}
+h3{
+    text-align: center;
+    margin-top: 25px;
+    position: relative;
+    left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.button img{
+    position: relative;
+    left: 230px;
+}
+.button1{
+    width: 100%;
+    height: 40%;
+    /* background-color: rgb(148, 12, 169); */
+}
+.button1 input{ 
+  position: relative;
+  left: 380px;
+  background-color: rgb(182, 73, 10);
+  font-size: 40px;
+  color: white;
+  border-radius: 15px;
+  padding: 10px 155px;
+}
+.legent3{
+    width: 100%;
+    height: 20%;
+    /* background-color: rgb(51, 39, 130); */
+}
+.legent4{
+    width: 100%;
+    height: 17%;
+    /* background-color: rgb(14, 182, 61); */
+}
+.legent5{
+    width: 100%;
+    height: 63%;
+    /* background-color: rgb(120, 58, 7); */
+}
+.legent5 img{
+    width: 550px;
+    position: relative;
+    left: 125px;
+    height: 550px;
+
+}
+.legent6{
+    width: 100%;
+    height: 20%;
+    /* background-color: rgb(204, 53, 169); */
+}
+.Money321{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    height: 450px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.Money321.card,.Money123.card{
+    object-fit: cover;
+    transition: 0.9s;
+}
+.card:hover{
+    transform: scale(0.9);
+}
+.card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.card h3 {
+    margin: 16px 0 8px;
+}
+h3{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.card p {
+    color: #555;
+}
+
+.card button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 150px;
+}
+
+.card button:hover {
+    background-color: #218838;
+}
+.Money123{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.no{
+    width: 1200px;
+    height: 800px;
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    left: 350px;
+    justify-content: center;
+    align-items: center;
+    /* background-color:chartreuse ; */
+}
+.na{
+    width: 50%;
+    height: 100%;
+    /* background-color: darkblue; */
+}
+
+.na1{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(78, 183, 43); */
+}
+.vox1{
+    width: 100%;
+    height: 15%;
+    /* background-color: darkolivegreen; */
+}
+.vox2{
+    width: 100%;
+    height: 70%;
+    /* background-color:cyan; */
+}
+.vox1{
+    width: 100%;
+    height: 15%;
+    /* background-color: rgb(17, 60, 70); */
+}
+.moveo{
+    width: 100%;
+    height: 25%;
+    /* background-color: rgb(22, 72, 181); */
+}
+.move{
+    width: 100%;
+    height: 20%;
+    margin-left: 50px;
+    /* background-color: deeppink; */
+}
+.move1{
+    width: 100%;
+    height: 55%;
+    /* background-color: rgb(84, 12, 50); */
+}
+.move1 h4{
+    text-align: center;
+    font-size: 30px;
+    margin-left: 50px;
+    /* font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+.moni{
+    width: 1200px;
+    height: 800px;
+    position: relative;
+    margin-top: 130px;
+    left: 350px;
+   /* background-color: cyan; */
+}
+.moni1{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    /* background-color: hotpink; */
+}
+.wid1{
+    width: 20%;
+    height: 100%;
+    background-color: cadetblue;
+    border-radius: 40px;
+    animation-name: seanghai;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes seanghai{
+    
+    from{
+       transform: rotate(300deg);
+
+ }
+}
+
+.wid2{
+    width: 60%;
+    height: 100%;
+    color: rgb(84, 141, 141);
+    font-size: 55px;
+    text-align: center;
+    /* background-color: rgb(18, 217, 57); */
+}
+.wid3{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(33, 239, 242);
+    animation-name: seanghai;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes seanghai{
+    
+    from{
+       transform: rotate(300deg);
+
+ }
+}
+.moni2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    /* background-color: rgb(28, 193, 7); */
+}
+.pii1{
+    width: 20%;
+    height: 100%;
+    /* background-color: rgb(58, 82, 85); */
+}
+.pii2{
+    width: 60%;
+    height: 100%;
+    /* background-color: rgb(5, 145, 164); */
+}
+.pii2 img{
+    position: relative;
+    left: 50px;
+}
+.pii3{
+    width: 20%;
+    height: 100%;
+    /* background-color: rgb(106, 191, 37); */
+}
+.moni3{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    /* background-color: rgb(94, 34, 176); */
+}
+.fii1{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(241, 102, 176);
+    animation-name: seanghai;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes seanghai{
+    
+    from{
+       transform: rotate(300deg);
+
+ }
+}
+.fii2{
+    width: 60%;
+    height: 100%;
+    /* background-color: deeppink; */
+}
+.fii3{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(19, 95, 170);
+    animation-name: seanghai;
+    border-radius: 40px;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes seanghai{
+    
+    from{
+       transform: rotate(300deg);
+
+ }
+}
+.display{
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    margin-top: 130px;
+    left: 450px;
+}
+.display1{
+    height: 85%;
+    width: 100%;
+    position: relative;
+    left: 150px;
+    /* background-color: aqua; */
+}
+.display1 img{
+    position: relative;
+    left: 40px;
+}
+.display2{
+    height: 15%;
+    width: 100%;
+}
+.java input{ 
+    position: relative;
+    left: 200px;
+    background-color: rgb(182, 73, 10);
+    font-size: 40px;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 155px;
+  }
+

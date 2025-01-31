@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.conteiner{
+    width: 1300px;
+    height: 700px;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    background-color: chartreuse;
+}
+.box1{
+    width: 68%;
+    height: 100%;
+    background-color: cornflowerblue; 
+}
+.bro{
+    width: 100%;
+    height: 84%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(6, 171, 50);
+}
+.bro1{
+    width: 61%;
+    height: 100%;
+    padding: 25px;
+    background-color: khaki;
+}
+.fox{
+    width: 100%;
+    height: 23%;
+    background-color: brown;
+}
+.na{
+    width: 100%;
+    height: 1.5% ;
+    background-color: chartreuse;
+}
+.fox1{
+    width: 100%;
+    height: 23%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(218, 88, 235);
+}
+.lo{
+    width: 55%;
+    height:100% ;
+    background-color: mediumturquoise;
+}
+.loy{
+    width: 5%;
+    height: 100%;
+    background-color: chartreuse;
+ }
+.lo1{
+    width: 40%;
+    height:100% ;
+    background-color: rgb(95, 33, 188);
+} 
+/* .na{
+    width: 100%;
+    height: 5.5 ;
+    background-color: chartreuse;
+} */
+.fox2{
+    width: 100%;
+    height: 50%;
+    background-color: brown;
+}
+
+.bro2{
+    width: 37%;
+    height: 100%;
+    padding: 10px;
+    justify-content:space-between;
+    background-color: rgb(52, 40, 99);
+}
+.bros{
+   width:100% ;
+   height:24%;
+   background-color: rgb(117, 70, 4);
+}
+.sis1{
+    width: 100%;
+    height: 6.5px;
+    background-color: blue;
+}
+.bros1{
+    width:100% ;
+    height:24% ;
+    background-color: black;
+}
+.sis2{
+    width: 100%;
+    height: 6.5px;
+    background-color: blue;
+}
+.bros2{
+    width:100% ;
+    height:24% ;
+    background-color: rgb(90, 185, 131);
+}
+.sis3{
+    width: 100%;
+    height: 6.5px;
+    background-color: blue;
+}
+.bros3{
+    width:100% ;
+    height:24% ;
+    background-color: rgb(164, 46, 58);
+}
+.box2{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(173, 80, 220);
+}
+.hei,.hei1,.hei2,.hei3,.hei4{
+    width: 100%;
+    height: 20%;
+    background-color: springgreen;
+}
+.hei1{
+    background-color: black;
+}
+.hei2{
+  background-color: darkorange;
+}
+.hei3{
+    background-color: ghostwhite;
+}
+.hei4{
+    background-color: mediumvioletred;
+}
+    

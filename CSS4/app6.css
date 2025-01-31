@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://m.media-amazon.com/images/I/61lwJy4B8PL._SX3000_.jpg');
+     background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.conteiner{
+    width: 100%;
+    height: 700px;
+    padding: 10px;
+    margin: 50px;
+    justify-content: space-between;
+    /* background-color: cadetblue; */
+}
+.box,.box1{
+    width: 100%;
+    height: 49%;
+    display: flex;
+    padding: 3px;
+    justify-content:space-between;
+    /* background-color: chartreuse; */
+}
+.boy,.boy1,.boy2,.boy3{
+    width: 24%;
+    height: 100%;
+    padding: 45px;
+    background-color:white;
+} 
+.boy .hai{
+    width: 100%;
+    height: 100%;
+    /* background-color:white; */
+}
+.boy1 .hai1{
+    width: 100%;
+    height: 100%;
+    /* background-color:white; */
+}
+.hai1 img{
+    width: 100% ;
+    object-fit: cover;
+    transition: 0.7;
+    height: 100%;
+}
+.boy img{
+    width: 100% ;
+    object-fit: cover;
+    transition: 0.7;
+    height: 100%;
+}
+.boy2 .hai2{
+    width: 100%;
+    height: 100%;
+    /* background-color:white; */
+}
+.hai2 img{
+    width: 100% ;
+    object-fit: cover;
+    transition: 0.7;
+    height: 100%;
+}
+.hai3 img{
+    width: 100% ;
+    object-fit: cover;
+    transition: 0.7;
+    height: 100%;
+}
+.boy3 .hai3{
+    width: 100%;
+    height: 100%;
+    /* background-color:white; */
+}
+
+.box1{
+    padding: ;
+    margin-top: 15px;
+    /* background-color: chocolate; */
+}
+.kanha,.kanha1,.kanha2,.kanha3{
+    width: 100%;
+    height: 100%;
+    /* background-color:white; */
+}
+.kanha img{
+    width: 100% ;
+    object-fit: cover;
+    transition: 0.7;
+    height: 100%;
+}
+.kanha1 img{
+    width: 100% ;
+    object-fit: cover;
+    transition: 0.7;
+    height: 100%;
+}
+.kanha2 img{
+    width: 100% ;
+    object-fit: cover;
+    transition: 0.7;
+    height: 100%;
+}
+.kanha3 img{
+    width: 100% ;
+    object-fit: cover;
+    transition: 0.7;
+    height: 100%;
+}

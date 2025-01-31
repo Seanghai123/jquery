@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&family=Sevillana&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://th.bing.com/th/id/R.d15f9650858f73c87c875dbe6a9350a4?rik=EZQHb32CECFajA&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f03%2fGreen-Nature-Wallpaper-Green.jpg&ehk=UmK%2bqeeMb5CYuxTkUKlm9y%2bC5ScHhEBnKmrec790DZ8%3d&risl=&pid=ImgRaw&r=0');
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+
+}
+.conteiner{
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around; 
+    box-shadow: 1px 20px 80px #ccc ;
+    background-color:white;
+}
+.flex img{
+    width: 150px;
+}
+.conteiner .copy{
+  display: flex;
+  list-style: none;
+}
+.copy a{
+    font-family: "Sevillana", cursive;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    margin: 0 40px;
+}
+.login{
+    display: flex;
+    align-items: center;
+}
+.Menu,.menu-login{
+  border-radius: 5px;
+  padding: 8px 5px;
+  margin-right: 20px;
+}
+.conteiner1 img{
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 100px;
+    left: 300px;
+   animation-name: seanghai;
+   animation-timing-function: linear;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+@keyframes seanghai{
+    from{
+        position: relative;
+        top: -30px;
+    }to{
+        position: relative;
+        top: 350px;
+    }
+}
+.ho img{
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 0px;
+    left:   800px;
+   animation-name: seanghai;
+   animation-timing-function: linear;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+@keyframes seanghai{
+    from{
+        position: relative;
+        top: -30px;
+    }to{
+        position: relative;
+        top: 350px;
+    }
+}
+
+

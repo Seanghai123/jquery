@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image-logo1{
+    display: none;
+}
+@media (max-width: 992px){
+    .image-logo1{
+        display: block;
+    }
+    .menu-icon{
+        display: none;
+    }
+    .image-logo2{
+        display: none;
+    }
+}

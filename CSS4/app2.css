@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 500px;
+    padding: 25px;
+    background-color: cornflowerblue;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    background-color: cyan;
+}
+.info,.infox{
+    width: 50%;
+    height: 100%;
+    padding: 3px;
+    object-fit: cover;
+    background-color:midnightblue;
+}
+.infox{
+    /* width: 50%;
+    height: 100%; */
+    display: flex;
+    justify-content: space-around;
+    /* justify- */
+    background-color: crimson;
+}
+.info1,.infox1{
+    width: 100%;
+    height:50%;
+    display: flex;
+    justify-content:space-between;
+    /* justify-content:space-between=សម្រាប់អោយដកឃ្លាចំពោះពណ៍ជួរដេក */
+    background-color:black;
+}
+.fo1,.fo2{
+    width: 49%;
+    height: 100%;
+    background-color:darkmagenta;
+}
+.fo2{
+    background-color: bisque
+}
+.fox1,.fox2{
+    width: 49%;
+    height: 100%;
+   background-color: coral;
+}
+.fox2{
+    background-color: aliceblue;
+}
+.infox1{
+    margin-top: 9px;
+    background-color: darkblue;
+}
+.info2,.infox2{
+     width: 50%;
+     height: 100%;
+     padding: 100px;
+     justify-content:;
+     background-color: yellow;
+}
+.infox2{
+    background-color: seagreen;
+}
+.ko1,.ko2{
+    width: 100%;
+    height: 49%;
+    background-color:rgb(71, 70, 3);
+}
+.ko2{
+ background-color: darkslateblue;
+}

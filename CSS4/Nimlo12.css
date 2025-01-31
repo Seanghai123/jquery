@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.MM{
+      
+      width:800px;
+      height: 500px;
+      margin: auto;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+
+
+}
+.blok1{
+        background-color: blue;
+        width:32%;
+        height:100%;
+        
+    }       
+.blok2{
+        background-color: red;
+        width: 32%;
+        height:100%;
+       
+}
+.blok3{
+        background-color: blueviolet;
+        width: 32%;
+        height:100%;
+}
+.krom1{
+        background-color:green;
+        width:100%;
+        height: 85%;
+        background-image: url('https://zandokh.com/image/cache/catalog/products/2024-07/1122405227/IMGL8836-cr-450x672.jpg');
+        background-size: cover;
+}
+.kromtt{
+        background-color:rgb(88, 172, 211);
+        width:100%;
+        height: 15%;
+        font-size: 20px;
+        display: flex;
+        justify-content:start;
+      
+}
+.krom2{
+        background-color: orange;
+        width: 100%;
+        height: 85%;
+        background-image:url('https://zandokh.com/image/cache/catalog/products/2024-07/4122405032/RT5-cr-450x672.jpg');
+       background-size: cover;
+}
+.kromta{
+         background-color:yellowgreen;
+         width: 100%;
+         height: 15%;
+
+}
+.krom3{
+        background-color: paleturquoise;
+        width: 100%;
+        height: 85%;
+        background-image: url('https://zandokh.com/image/cache/catalog/products/2024-07/4122405030/RO (2)-cr-450x672.jpg');
+        background-size: cover;
+}
+.kromti{
+         background-color: rgb(55, 114, 192);
+         width:100%;
+         height: 15%;
+}
+.text-red{
+          color: red;
+}
+.strik-text{
+            text-align: center;
+             text-decoration: line-through;
+}
+.push-text{
+          font-size: 15 px;
+           /* margin: 15px 10px 10px 10px; */
+}

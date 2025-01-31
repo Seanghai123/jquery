@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    width: ;
+    height: ;
+    /* background-color:blue; */
+}
+.container{
+    width: 70%;
+    height: 600px;
+    background-color: chartreuse;
+}
+.sovea{
+    width: 100%;
+    height: 100px;
+    /* padding: 4px; */
+    ;
+    background-color:cornflowerblue;
+}
+ul{
+    list-style: none;
+} 
+/* foneawesome=ស្វែងរក,cdnទៅcopylink */
+ul li{
+    padding: 25px;
+    /* Padding: 25px=ដកគម្លាតអក្សរ */
+    font-size: 30px;
+    /*​ fonr-size ធ្វើអោយអក្សររីកធំ */
+    display:inline-block;
+    color: aliceblue;
+    /* display:inline-block=ធ្វើអោយអក្សរពីជួរឈរមកជួរដេក */
+}
+ul li:hover{
+    text-decoration: underline;
+    /* text-decoration: underline=ដាក់បន្ទាត់ពីក្រោមអក្សរ​ */
+    color:blue;
+}
+h1{
+    text-align: center;
+}
+.sova1{
+    width: 100%;
+    height: 83.4%;
+   /* justify-content: center;
+    text-align: center; */
+    display: flex;
+     background-color: darkorange;
+}
+.fox{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(38, 73, 213);
+}
+ul{
+    list-style: none;
+} 
+/* foneawesome=ស្វែងរក,cdnទៅcopylink */
+ul li{
+    padding: 25px;
+    /* Padding: 25px=ដកគម្លាតអក្សរ */
+    font-size: 30px;
+    /*​ fonr-size ធ្វើអោយអក្សររីកធំ */
+    display:inline-block;
+    color: aliceblue;
+    /* display:inline-block=ធ្វើអោយអក្សរពីជួរឈរមកជួរដេក */
+}
+ul li:hover{
+    text-decoration: underline;
+    /* text-decoration: underline=ដាក់បន្ទាត់ពីក្រោមអក្សរ​ */
+    color:lightcoral;
+}
+.content-right{
+    width: 80%;
+    height: 100%;
+    background-color: deeppink;
+}
+.content-up{
+    width: 100%;
+    height: 70%;
+    background-color: cyan;
+}
+.content-up img{
+    width: 100% ;
+    object-fit: cover;
+    transition: 0.7;
+    height: 100%;
+}
+img:hover{
+    transform: scale(0.9);
+    /* transform: scale(0.9);=សម្រាប់អោយឬូបភាពលោត */
+}
+.content-donws{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    background-color: darkmagenta;
+}
+.Phone,.follow,.online{
+    width: 33.3%;
+    height: 100%;
+    /* padding: 10px; */
+    background-color: lightseagreen;
+}
+.follow{
+    background-color: black;
+}
+.online{
+    background-color: beige;
+}
+

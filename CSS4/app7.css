@@ -1,0 +1,15 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+    display: grid;
+    height: 300px;
+    gap: 20px;
+    background-color: darkorchid;
+    grid-template-columns:repeat(5,1fr);
+    grid-template-rows: repeat(2,300px);
+}
+.conteiner .box{
+background-color: chartreuse;
