@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const products=[
+            {code : 1001,proName:'coffee',price : '1.5$',made_in :'khmer'},
+            {code : 1002,proName:'Mukbang',price : '2.5$',made_in :'thailand'},
+            {code : 1003,proName:'Streetfood',price : '3.5$',made_in :'USA'},
+        ]
+        console.log(products)
+        // const search = products . find(Test => Test.code == 1002);
+        // console.log(search);
+        products .forEach((element,index)=>{
+            console.log(element.code,element.proName,element.price,element.made_in)
+         })
+    </script>
+</body>
+</html>

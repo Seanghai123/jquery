@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+ <script>
+    function getInput() {
+    // Collecting inputs from the user
+    let id = prompt("Enter ID:");
+    let name = prompt("Enter Name:");
+    let gender = prompt("Enter Gender (M/F):");
+    let java = parseFloat(prompt("Enter Java Score:"));
+    let html = parseFloat(prompt("Enter HTML Score:"));
+    let css = parseFloat(prompt("Enter CSS Score:"));
+    let vueJS = parseFloat(prompt("Enter VueJS Score:"));
+
+    // Returning an object with all the inputs
+    return { id, name, gender, java, html, css, vueJS };
+}
+
+// Function to calculate the total score
+function calculateTotal(scores) {
+    // Summing up all the scores
+    return scores.java + scores.html + scores.css + scores.vueJS;
+}
+
+// Function to calculate the average score
+function calculateAverage(total, numSubjects) {
+    // Calculating average by dividing total by the number of subjects
+    return total / numSubjects;
+}
+
+// Function to display the results
+function displayResults(info, total, average) {
+    // Displaying the information and scores
+    console.log("=== Student Information ===");
+    console.log(`ID: ${info.id}`);
+    console.log(`Name: ${info.name}`);
+    console.log(`Gender: ${info.gender}`);
+    console.log(`Java Score: ${info.java}`);
+    console.log(`HTML Score: ${info.html}`);
+    console.log(`CSS Score: ${info.css}`);
+    console.log(`VueJS Score: ${info.vueJS}`);
+    console.log("===========================");
+    console.log(`Total Score: ${total}`);
+    console.log(`Average Score: ${average.toFixed(2)}`);
+}
+
+// Main function to execute the program
+function main() {
+    // Getting user input
+    let studentInfo = getInput();
+
+    // Calculating total score
+    let totalScore = calculateTotal(studentInfo);
+
+    // Calculating average score (4 subjects)
+    let averageScore = calculateAverage(totalScore, 4);
+
+    // Displaying the results
+    displayResults(studentInfo, totalScore, averageScore);
+}
+
+// Run the program
+main();
+main();
+ </script>
+</html>

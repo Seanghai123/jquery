@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <form action="" class=" w-50 mx-auto bg-secondary p-4 ">
+     <h1>Form Culculation</h1>
+     <label for=""> Input Result A</label>
+     <input type="text" placeholder="value A" id="A" class="form-control ">
+     <label for="">Input Result B </label>
+     <input type="text" placeholder="value B" id="B" class="form-control">
+     <label for="">Result</label>
+     <input type="text" placeholder="result" id="result" class="form-control">
+     <input type="button" onclick="Calculation()" class=" btn btn-primary my-3 mx-2" value="Calculation" >
+     <input type="reset"  class=" btn btn-danger" value="cancel" >
+    </form>
+</body>
+ <script> 
+     const Calculation=()=>{
+        const A = document.getElementById('A')
+        const B = document.getElementById('B')
+        const result= Number(A.value) + Number(B.value)
+        document.getElementById('result').value=result;
+        A.value="";
+        B.value="";
+     }
+ </script>
+</html>

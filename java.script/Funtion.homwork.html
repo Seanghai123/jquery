@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+     <script>
+      let id,name,gender,java,html,css,vueJS;
+      const Input=()=>{
+         // let id,name,gender,java,html,css,vueJS;
+         id=prompt("Enter ID :");
+         name=prompt("Enter Name :");
+         gender=prompt("Enter Gender :");
+         java=Number(prompt("Enter java :"));
+         html=Number(prompt("Enter Html:"));
+         css=Number(prompt("Enter css :"));
+         VueJS=Number(prompt("Enter VueJS :"));
+      }
+     function total(){
+        return java+html+css+vueJS;
+     }
+     function Average(){
+        return (java+html+css+vueJS)/5;
+     }
+     function display_total(){
+     document.write('Result ID :'+(id)+'<br>')
+     document.write('Result name :'+(name)+'<br>')
+     document.write('Result Gender :'+(gender)+'<br>')
+     document.write('Result Java :'+{java}+'<br>')
+     document.write('Result Html :'+{html}+'<br>')
+     document.write('Result CSS :'+{css}+'<br>')
+     document.write('Result VueJS :'+{vueJS}+'<br>')
+     document.write('Result Total :'+(total=java+html+css+vueJS)+'<br>')
+     document.write('Result ID :'+(Average=(total/5))+'<br>')
+     }
+     function score(){
+      if(Average=>100){
+      document.write('A++:');
+}     
+      else if(Average=>75){
+      document.write('B:');
+}     
+      else if(Average=>50){
+      document.write('C :');
+}     
+     }
+   Input();
+   display_total();
+   score();
+     </script>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1 id="h1">Today is Lerning Dom Java script</h1>
+   <div class="box">
+    <h1>Lern DOM JAVA</h1>
+    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium laboriosam aliquid, ducimus
+        tempora facilis omnis, nemo, ratione dolorum iure exercitationem ad culpa eos distinctio odit. Quod, eum. 
+         Alias, modi sit.</p>
+
+   </div>
+   <div class="box">
+
+   </div>
+</body>
+   <script>
+     const h1=document.getElementById('h1');
+     h1.innerHTML='About Dom';//ការផ្ទេរទិន្ន័យjavaទៅកាន់hmtl
+     h1.style.color='Red'
+     h1.style.textAlign='center'
+     h1.style.fontSize='50px'
+
+     const box=document.getElementsByClassName('box'); 
+
+     box[0].innerText='Hello Mom';
+     box[1].innerHTML='<h1>Hello Java</h1>';
+     box[0].style.fontSize='100px'
+     box[0].style.color='pink'
+     box[0].style.textAlign='center'
+     box[1].style.fontSize='150px'
+     box[1].style.color='Yellow'
+     box[1].style.textAlign='center'
+
+   </script>
+</html>

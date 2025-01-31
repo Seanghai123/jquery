@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+ <script>
+
+    var code;
+    var proName
+    var Qty;
+    var payment,total,price;
+    
+    code=prompt('Enter Code:');
+    proName=prompt('Enter proName:');
+    Qty=prompt('Enter Qty:');
+    price=prompt('Enter price:');
+    total=Qty*price;
+    if(total>=1 && total<=10){
+      payment = total - (total*10)/100;
+    }else if(total > 10 && total <20){
+        payment =total - (total*20)/100;
+    }
+    else if(total > 20 && total<30){
+        payment =total - (total*30)/100;
+    }
+    else if(total > 30 && total<40){
+        payment =total - (total*40)/100;
+    }
+    else if(total > 40 && total<50){
+        payment =total - (total*50)/100;
+    }
+     else{
+        payment =total -(total*60)/100; 
+    }
+    document.write('<h1> Product code :'+code+'<h1/>')
+    document.write('<h1> Product proName :'+proName+'<h1/>')
+    document.write('<h1> Product Qty :'+Qty+'<h1/>')
+    document.write('<h1> Product payment :'+payment+'<h1/>')
+    document.write('<h1> Product total :'+total+'<h1/>')
+    document.write('<h1> Product price :'+price+'<h1/>')
+
+     
+ </script>
+</html>
